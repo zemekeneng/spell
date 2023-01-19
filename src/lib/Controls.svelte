@@ -15,7 +15,7 @@
 
 
 <div class="controls">
-    <input type="text" name="" id="" bind:value={finalText} size="60">
+    <input type="text" name="" id="" bind:value={finalText} size="30">
     Columns: <input type="text" name="" id="" bind:value={columns} max=10 size="2">
     Rows: <input type="text" name="" id="" bind:value={rows} max=3 size="2">
     <button on:click={reset}>Reset</button>
